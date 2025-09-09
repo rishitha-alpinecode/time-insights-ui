@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Insights Dashboard</title>
+    <link rel="icon" type="image/png" href="./images/fevicon.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="dashboard-layout">
+        <aside class="sidebar">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <img src="./images/kerosene.png" alt="Kerosene Logo">
+                </div>
+                <div class="logo-text">
+                    Kerosene<sup>io</sup>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <a href="#" class="nav-item active">
+                    <img src="images/security-time.png" alt="Time Insights Icon">
+                    <span>Time Insights</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="images/temp_preferences_custom.png" alt="Smart Insights Icon">
+                    <span>Smart Insights</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="images/chart.png" alt="Operating Cadence Icon">
+                    <span>Operating Cadence</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="images/profile-2user.png" alt="Managers Icon">
+                    <span>Managers</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="images/profile.png" alt="Sellers Icon">
+                    <span>Sellers</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="images/people.png" alt="Team Management Icon">
+                    <span>Team Management</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="images/setting-2.png" alt="Settings Icon">
+                    <span>Settings</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="images/setting-2 copy.png" alt="AI Chat Icon">
+                    <span>AI Chat</span>
+                </a>
+            </nav>
+
+            <div class="user-profile">
+                <img src="./images/image 7.png" alt="Profile Picture">
+                <span>Rishitha Mothe</span>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="content-header">
+                <h1>Time Insights</h1>
+                <div class="header-controls">
+                    <div class="date-info">
+                        <span class="date-label">This Week</span>
+                        <span id="date-range-display" class="current-date-range">Sept 8-14, 2025</span>
+                    </div>
+                    <div class="duration-picker">
+                        <span class="duration-label">Duration:</span>
+                        <input type="text" id="dateRangeInput" placeholder="Sept 8 - Sept 14" readonly />
+                    </div>
+                </div>
+            </header>
+
+            <section class="section-block">
+                <h2>Time with team</h2>
+                <div class="time-with-team-grid">
+                    <div class="team-insight-card">
+                        <span class="large-value">--</span>
+                       <div class="child-2"> 
+                           <div class="grandchild">
+                                <span class="card-type">1 on 1s</span>
+                                <img src="./images/Group 1707478219.png" height="18px" width="18px" style="padding-bottom: 15px;">
+                           </div>
+                            <button class="add-team-button" >Add Team</button>
+                        </div>
+                        <span class="info-note">Add team members to view data</span>
+                    </div>
+                    
+                    <div class="team-insight-card">
+                        <span class="large-value">--</span>
+                        <div class="child-2"> 
+                            <div class="grandchild">
+                                <span class="card-type">Team Meets</span>
+                                <img src="./images/Group 1707478219.png" height="18px" width="18px" style="padding-bottom: 15px;">
+                            </div>
+                        <button class="add-team-button">Add Team</button>
+                        </div>
+                        <span class="info-note">Add team members to view data</span>
+                    </div>
+                    <div class="team-insight-card">
+                        <span class="large-value">--</span>
+                        <div class="child-2"> 
+                            <div class="grandchild">
+                                <span class="card-type">Co-Selling</span>
+                                <img src="./images/Group 1707478219.png" height="18px" width="18px" style="padding-bottom: 15px;">
+                            </div>
+                        <button class="add-team-button">Add Team</button>
+                        </div>
+                        <span class="info-note">Expected: 20%-22%</span>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-block">
+                <h2>Time without team</h2>
+                <div id="timeWithoutTeamCards" class="insights-grid "></div>
+            </section>
+            
+            <section class="section-block">
+                <h2>Open</h2>
+                <div id="openCard" class="insights"></div>
+            </section>
+
+            <section class="section-block1 ">
+                <h2>TEAM INSIGHTS</h2>
+                <div class="team-summary-grid">
+                    <div class="summary-card">
+                        <h3>Time Team Summary</h3>
+                        <p>Want to know which Manager is doing great w/t team time allocation?</p>
+                        <button class="summary-button">Add Team Member</button>
+                    </div>
+                    <div class="summary-card">
+                        <h3>Time Vs Team Performance</h3>
+                        <p>Want to know how Managers are spending time with Top Vs Low Performers?</p>
+                        <button class="summary-button">Add Team Performance</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/litepicker.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
