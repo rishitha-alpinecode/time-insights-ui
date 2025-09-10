@@ -90,9 +90,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="./images/${arrow}" alt="${openItem.isIncrease ? 'Up' : 'Down'} arrow">
                     <span>${openItem.change}%</span>
                 </div>
-                <span class="hours">
+                <div class="hours">
                     ${openItem.hours}hrs
-                </span>
+                </div>
             </div>
         </div>
         <div class="type">Open Calendar
