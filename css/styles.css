@@ -130,8 +130,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 12px;
-    padding: 20px 24px 40px 24px; 
+    gap: 15px;
+    padding: 20px 22px 40px 20px; 
     border-top: 0.5px solid rgba(208, 230, 250, 0.3);
     margin-top: 24px; 
     color: var(--kerosene-light-blue);
@@ -140,11 +140,9 @@ body {
 }
 .user-profile .pos {
     display: flex;
-    gap : 12px;
+    gap : 10px;
     align-items: center;
-}
-.user-profile .pos {
-    font-size: 20px;
+    font-size: 18px;
 }
 .user-profile .img {
     width:20px;
