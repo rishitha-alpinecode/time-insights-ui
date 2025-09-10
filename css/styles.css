@@ -14,8 +14,8 @@
     --kerosene-primary-button:  #5D5DFF;
     --kerosene-secondary-value: #5C6BC0;
     --kerosene-open-value: #6C757D;
-    --kerosene-success: #28a745;
-    --kerosene-danger: #dc3545;
+    --kerosene-success:  #86CB91;
+    --kerosene-danger: #D85040;
     --kerosene-date : #5D5DFF;
 
 }
@@ -120,7 +120,7 @@ body {
 
 .nav-item.active {
     background-color: var(--kerosene-active-blue);
-    font-weight: 600;
+    font-weight: 400;
     color: #fff;
 }
 
@@ -325,7 +325,7 @@ body {
 }
 .team-insight-card .card-type {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--kerosene-text);
     margin-bottom: 15px;
 }
@@ -382,9 +382,7 @@ body {
     min-width: 260px;
     max-width: 204px; 
 }
-.data-card  {
-    background-color: #223B58;
-}
+
 
 .data-card .card-header {
     display: flex;
@@ -423,12 +421,12 @@ body {
     padding:10px
 }
 .data-card .change img {
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 9px;
 }
 
 .data-card .type {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 22px;
     color: var(--kerosene-light-blue);
     margin-bottom: 12px;
