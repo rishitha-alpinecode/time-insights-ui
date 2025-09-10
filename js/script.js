@@ -33,15 +33,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         <img src="./images/${arrow}" alt="${item.isIncrease ? 'Up' : 'Down'} arrow">
                         <span>${item.change}%</span>
                     </div>
-                    <span class="hours">
+                    <div class="hours">
                         ${item.hours}hrs
-                    </span>
+                    </div>
                     </div>
                 </div>
                 <div class="type">
                     ${item.type}
-                     <img src="./images/Group 1707478219.png" height="18px" width="18px" style="padding-top:5px; padding-left: 10px">
-                    </div>
+                    <img src="./images/Group 1707478219.png" height="20px" width="20px" style="padding-top:5px; padding-left: 10px">
+                </div>
                 
                 <div class="details">
                     <span class="expected">Expected: ${item.expected}</span>
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="type">Open Calendar
-        <img src="./images/Group 1707478219.png" height="18px" width="18px" style="padding-top:5px; padding-left: 10px"></div>
+        <img src="./images/Group 1707478219.png" height="20px" width="20px" style="padding-top:5px; padding-left: 10px"></div>
         
         <div class="details">
             <span class="expected">Expected: ${openItem.expected}</span>
