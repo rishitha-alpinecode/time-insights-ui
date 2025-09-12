@@ -106,6 +106,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Initialize Litepicker
+    
+    
     const picker = new Litepicker({
         element: document.getElementById('dateRangeInput'),
         singleMode: false,
